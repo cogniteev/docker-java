@@ -17,7 +17,7 @@ RUN \
   apt-get update && \
   apt-get install -y oracle-java9-installer && \
   rm -rf /var/lib/apt/lists/* && \
-  rm -rf /var/cache/oracle-jdk8-installer
+  rm -rf /var/cache/oracle-jdk9-installer
 
 
 # Define working directory.
